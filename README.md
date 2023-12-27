@@ -12,15 +12,17 @@ This is a basic Python keylogger that uses the `pynput` library to monitor and r
 
 This script requires Python and the `pynput` library. Ensure you have Python installed on your machine. You can install `pynput` using pip:
 
-    ```bash
-        pip install pynput
+```bash
+pip install pynput
+```
 
 ##Usage
 
 To start the keylogger, simply run the script:
 
-    ```bash
-        python keylogger.py
+```bash
+python keylogger.py
+```
 
 The script will start recording all keypresses. Each set of 10 keypresses will be written to log.txt. Press the esc key to stop the script.
 
